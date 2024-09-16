@@ -28,10 +28,6 @@ beforeSuite(async () => {
     })
 });
 
-afterSuite(async () => {
-    await closeBrowser();
-});
-
 // Return a screenshot file name
 gauge.customScreenshotWriter = async function () {
     const screenshotFilePath = path.join(process.env['gauge_screenshots_dir'],

@@ -6,7 +6,7 @@ step("Abrir o navegador", async () => {
 });
 
 step("Navegar para a página de login", async () => {
-    await goto('http://localhost:8080/login.html');
+    await goto('http://localhost:8080/templates/login.html');
 });
 
 step("Digitar <usuario> no campo de texto <campo>", async (usuario, campo) => {
