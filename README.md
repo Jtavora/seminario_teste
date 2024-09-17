@@ -74,4 +74,4 @@ Após a execução dos testes, você pode encerrar o servidor HTTP pressionando 
 - Certifique-se de que todas as dependências estejam corretamente instaladas e configuradas antes de executar os testes.
 - Verifique se o Gauge e o Taiko estão corretamente configurados no seu projeto.
 
-Se você encontrar algum problema durante o processo, consulte a [documentação oficial do Gauge](https://docs.getgauge.io/) e [documentação oficial do Taiko](https://taiko.dev/) para obter mais informações e suporte.
+Se você encontrar algum problema durante o processo, consulte a [documentação oficial do Gauge](https://gauge.org/) e [documentação oficial do Taiko](https://taiko.dev/) para obter mais informações e suporte.
