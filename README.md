@@ -40,34 +40,32 @@ Primeiramente, é necessário ter o Node.js instalado no seu sistema. Recomenda-
      npm install
      ```
 
-2. **Instalar Gauge:**
-   - Execute os seguintes comandos para instalar o Gauge CLI e o HTTP Server globalmente:
+2. **Instalar Gauge e HTTP Server globalmente:**
+   - Execute os seguintes comandos:
      ```bash
      npm install -g @getgauge/cli
      npm install -g http-server
      ```
 
-## Passo 3: Iniciar o HTTP Server
+## Passo 3: Executar o Script de Automação
 
-1. **Iniciar o HTTP Server:**
-   - No diretório do seu projeto, execute o comando para iniciar o HTTP Server:
+1. **Tornar o script executável:**
+   - No terminal, navegue até o diretório do seu projeto e execute o comando:
      ```bash
-     http-server -p 8080
-     ```
-   - Certifique-se de que o servidor HTTP está rodando antes de prosseguir para os testes.
-
-## Passo 4: Executar os Testes
-
-1. **Rodar os testes utilizando Gauge:**
-   - Com o HTTP Server em execução, abra um novo terminal ou aba e navegue até o diretório do seu projeto.
-   - Execute o comando para rodar os testes:
-     ```bash
-     npm test
+     chmod +x script.sh
      ```
 
-## Passo 5: Encerrar
+2. **Executar o script:**
+   - Execute o script com o comando:
+     ```bash
+     ./script.sh
+     ```
 
-Após a execução dos testes, você pode encerrar o servidor HTTP pressionando `Ctrl+C` no terminal onde o servidor está em execução.
+   O script instalará as dependências, iniciará o servidor HTTP, executará os testes e exibirá a URL do relatório.
+
+## Passo 4: Encerrar
+
+Após a execução dos testes, o servidor HTTP será encerrado automaticamente pelo script. Caso esteja rodando em um terminal separado, você pode interrompê-lo manualmente pressionando `Ctrl+C`.
 
 ## Notas Adicionais
 
