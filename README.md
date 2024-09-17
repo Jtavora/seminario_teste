@@ -34,13 +34,13 @@ Primeiramente, é necessário ter o Node.js instalado no seu sistema. Recomenda-
 
 ## Passo 2: Instalar Dependências
 
-1. **Instalar as dependências do projeto:**
+1. **Instalar as dependências do projeto (Taiko):**
    - Navegue até o diretório do seu projeto e execute o comando:
      ```bash
      npm install
      ```
 
-2. **Instalar Gauge e Taiko globalmente:**
+2. **Instalar Gauge:**
    - Execute os seguintes comandos para instalar o Gauge CLI e o HTTP Server globalmente:
      ```bash
      npm install -g @getgauge/cli
@@ -52,7 +52,7 @@ Primeiramente, é necessário ter o Node.js instalado no seu sistema. Recomenda-
 1. **Iniciar o HTTP Server:**
    - No diretório do seu projeto, execute o comando para iniciar o HTTP Server:
      ```bash
-     http-server
+     http-server -p 8080
      ```
    - Certifique-se de que o servidor HTTP está rodando antes de prosseguir para os testes.
 
